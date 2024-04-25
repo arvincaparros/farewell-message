@@ -87,6 +87,7 @@ body {
 }
 
 .paragraph {
+    padding-top: 10px;
     width: 400px;
     position: absolute;
     left: 50%;
