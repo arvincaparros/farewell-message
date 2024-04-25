@@ -6,15 +6,26 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
     background: #d8c8af;
 }
 
-.container img {
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .ht {
     width: 100px;
     height: 100px;
+    
+}
+
+.notebook2 {
+    width: 550px;
+    height: 750px;
 }
 
 .container .ht11 {
@@ -95,36 +106,15 @@ body {
 
 }
 
-@media screen and (max-width: 480px) {
-    
-    .container {
-        padding: 0 20px;
-    }
-
-    .container img {
+@media screen and (max-width: 400px) 
+{
+    .container .ht {
         width: 50px;
         height: 50px;
     }
     
-    .notebook {
-        margin-top: 0px;
-        background-image: url(img/notebook-nbg.png);
-        background-repeat: no-repeat;
-        background-position: 50%;
-        background-size: 500px, 400px;
-        height: 100vh;
-    }
-
-    .paragraph {
-        padding-top: 10px;
+    .notebook2 {
         width: 300px;
-        position: relative;
-        /* left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%); */
-    }
-
-    .paragraph p {
-        font-size: 12px;
+        height: 700px;
     }
 }
