@@ -106,6 +106,10 @@ body {
 
 }
 
+.pic {
+    display: none;
+}
+
 @media screen and (max-width: 400px) 
 {
     .container .ht {
@@ -158,5 +162,15 @@ body {
     
     .container .ht16 {
         display: none;
+    }
+
+    .pic {
+        display: block;
+        position: absolute;
+        right: 20px;
+        bottom: 35px;
+        transform: rotate(45deg);
+        width: 100px;
+        height: 120px;
     }
 }
