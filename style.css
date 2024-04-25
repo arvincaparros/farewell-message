@@ -115,7 +115,7 @@ body {
     
     .notebook2 {
         width: 330px;
-        height: 750px;
+        height: 700px;
     }
 
     .paragraph {
@@ -129,6 +129,24 @@ body {
     .paragraph p {
         font-size: 11px;
     }
+
+    .container .ht11 {
+        position: absolute;
+        left: 0;
+        top: 0;
+    } 
+    
+    .container .ht12 {
+        position: absolute;
+        left: 10%;
+        top: 0;
+    } 
+    
+    .container .ht13 {
+        position: absolute;
+        left: 20%;
+        top: 0;
+    } 
 
 
     .container .ht14 {
