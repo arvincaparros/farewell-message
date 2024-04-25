@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: #d8c8af;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+}
+
+.container .ht11 {
+    position: absolute;
+    left: 0;
+    top: 0;
+} 
+
+.container .ht12 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+} 
+
+.container .ht13 {
+    position: absolute;
+    left: 10%;
+    top: 0;
+} 
+
+.container .ht14 {
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+} 
+
+.container .ht15 {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+.container .ht16 {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+
+/* .container .ht17 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.container .ht18 {
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
+
+.container .ht19 {
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+
+.container .ht20 {
+    position: absolute;
+    left: 80%;
+    top: 0;
+} */
+
+.notebook {
+    margin-top: 0px;
+    background-image: url(img/notebook.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 650px;
+    height: 100vh;
+  
+}
+
+.paragraph {
+    width: 400px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
