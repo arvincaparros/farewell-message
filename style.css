@@ -111,7 +111,7 @@ body {
         background-image: url(img/notebook-nbg.png);
         background-repeat: no-repeat;
         background-position: 50%;
-        background-size: contain;
+        background-size: 400px, 600px;
         height: 100vh;
     }
 
