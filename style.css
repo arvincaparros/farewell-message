@@ -115,7 +115,7 @@ body {
     
     .notebook2 {
         width: 330px;
-        height: 700px;
+        height: 600px;
     }
 
     .paragraph {
@@ -147,7 +147,6 @@ body {
         left: 20%;
         top: 0;
     } 
-
 
     .container .ht14 {
         display: none;
